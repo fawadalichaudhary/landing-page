@@ -1,5 +1,5 @@
 import * as React from "react";
-import NavBar from "./navBar";
+import NavBar from "./NavBar"
 import Herosection1 from "./Herosection1";
 function App() {
   return (
