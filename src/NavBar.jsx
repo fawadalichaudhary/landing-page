@@ -1,29 +1,32 @@
-import React from "react";
-
-const navBar = () => {
+import * as React from "react";
+import logo from "./assets/Link.svg"
+function Navbar() {
   return (
-    <>
-      <header className=" bg-amber-500 flex justify-around items-center">
-        <div
-          className="max-w-7xl mx-autopx-4 py-4 flex gap-1.5 flex-col justify-between md:flex-row md:items-centermd:justify-between">
-          <h2 className="text-rose-800 font-bold text-2xls">BerrySkin</h2>
-          {/*  how to render svg here ? */}
-          <nav className="">
-            <ul className="flex flex-col md:flex-row gap-4 mt-4 md:mt-0">
-              <li>Shop</li>
-              <li>Ingredients</li>
-              <li>Blog</li>
-              <li>About</li>
-            </ul>
-          </nav>
-        </div>
-        <div className="flex flex-col md:flex-row gap-5 justify-between">
-          <input type="text" placeholder="Search routine..." className="bg-white border-2 rounded-3xl p-1" />
-          <button className="bg-green-400 p-1 border rounded-3xl font-semibold">Skip Quiz</button>
-        </div>
-      </header>
-    </>
-  );
-};
+    <div>
+      <nav className="flex items-center justify-between px-10 py-5 bg-white shadow-sm">
+        <div className="flex justify-around gap-3">
+          <img src={logo} alt="" srcSet="" />
 
-export default navBar;
+          <ul className="flex gap-8 text-gray-700 font-medium">
+            <li className="cursor-pointer hover:text-pink-600">Shop</li>
+            <li className="cursor-pointer hover:text-pink-600">Ingredients</li>
+            <li className="cursor-pointer hover:text-pink-600">Blog</li>
+            <li className="cursor-pointer hover:text-pink-600">About</li>
+          </ul>
+        </div>
+        <div className="flex gap-4">
+          <input
+            placeholder="Search routine..."
+            className="border px-4 py-2 rounded-full"
+          />
+
+          <button className="bg-pink-600 text-white px-5 py-2 rounded-full">
+            Skin Quiz
+          </button>
+        </div>
+      </nav>
+    </div>
+  );
+}
+
+export default Navbar;

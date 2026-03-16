@@ -1,24 +1,51 @@
-import React from 'react'
-import myImage from './img.png';
-
-function herosection1() {
+import * as React from "react";
+import hello from "./assets/img.png"
+function Hero() {
   return (
-    <>
-      {/* <section> */}
-      <div className='flex items-center justify-center gap-3 p-8 bg-blue-950 flex-col md:flex-row'>
-        <div className='bg-amber-500 flex-col'>
-          <p className='text-xs'>New Arrival: CloudBerry Essence</p>
-          <p className='text-6xl'>BerrySkin-</p>
-          <p className='text-6xl'> Berries to </p>
-          <p className='text-6xl'>Beyond.</p>
+    <section className="grid md:grid-cols-2 items-center px-12 py-16 gap-10 justify-between">
+
+      <div>
+        <p className="text-sm text-pink-500 font-semibold mb-4">
+          NEW ARRIVAL: CLOUDBERRY ESSENCE
+        </p>
+
+        <h1 className="text-5xl font-bold text-gray-900 leading-tight">
+          BerrySkin – <br />
+          <span className="text-pink-600">Berries to Beyond.</span>
+        </h1>
+
+        <p className="mt-6 text-gray-600">
+          Fruit-Powered Korean Formula Skincare for Real Results.
+        </p>
+
+        <p className="text-pink-500 mt-2">
+          Brighten. Hydrate. Protect. Repair.
+        </p>
+
+        <div className="flex gap-4 mt-8">
+          <button className="bg-pink-600 text-white px-6 py-3 rounded-lg">
+            Shop The Routine
+          </button>
+
+          <button className="border px-6 py-3 rounded-lg">
+            Take Skin Quiz
+          </button>
         </div>
-        <div className='bg-blue-950 object-cover'>
-          <img src={myImage} alt="img" />
-        </div>
+
+        <p className="mt-6 text-gray-500 text-sm">
+          Joined by 50,000+ glowing users
+        </p>
       </div>
-      {/* </section> */}
-    </>
-  )
+
+      <div className="flex justify-center object-cover">
+        <img
+          src={hello}
+          className="rounded-2xl shadow-lg"
+        />
+      </div>
+
+    </section>
+  );
 }
 
-export default herosection1
+export default Hero;
