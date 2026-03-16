@@ -10,31 +10,35 @@ function cardSection() {
     {
       step: "01",
       title: "Cleanse",
+      type: "BerryClear Cleanser",
       desc: "BerryClear Cleanser removes impurities.",
       img: cleanserImg
     },
     {
       step: "02",
       title: "Treat",
+      type: "BerryClear Cleanser",
       desc: "BerryGlass Serum for glowing skin.",
       img: Serum
     },
     {
       step: "03",
       title: "Hydrate",
+      type: "BerryClear Cleanser",
       desc: "BerryHydrate Moisturizer locks moisture.",
       img: moist
     },
     {
       step: "04",
       title: "Protect",
+      type: "BerryClear Cleanser",
       desc: "BerryDefence SPF for daily protection.",
       img: spf
     }
   ];
 
   return (
-    <section className="px-12 py-20">
+    <section className="px-12 py-20 bg-[#8D204C05]">
 
       <div className="flex justify-between items-center mb-10">
         <div>
@@ -47,7 +51,7 @@ function cardSection() {
           </p>
         </div>
 
-        <button className="bg-pink-100 text-pink-600 px-5 py-2 rounded-full">
+        <button className="bg-pink-100 text-superman-red px-5 py-2 rounded-full">
           Shop Bundle & Save 20%
         </button>
       </div>

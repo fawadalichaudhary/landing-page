@@ -1,5 +1,5 @@
 import * as React from "react";
-import ConcernCard from "./SkinSectioncard";
+import ConcernCard from "./ConcernCard";
 import hyper from "./assets/Hyperpigmentation.svg"
 import dull from "./assets/DullSkin.svg"
 import dehyd from "./assets/Dehydration.svg"
@@ -13,7 +13,11 @@ function SkinConcern() {
     { img: dull, title: "Dull Skin" },
     { img: dehyd, title: "Dehydration" },
     { img: barrier, title: "Barrier Damage" },
-    { img: acne, title: "Acne Prone" }
+    { img: acne, title: "Acne Prone" },
+    { img: hyper, title: "Hyperpigmentation" },
+    { img: dull, title: "Dull Skin" },
+    { img: dehyd, title: "Dehydration" },
+    { img: barrier, title: "Barrier Damage" }
   ];
 
   return (
@@ -23,7 +27,7 @@ function SkinConcern() {
         Shop by Skin Concern
       </h3>
 
-      <div className="flex gap-6 overflow-x-auto">
+      <div className="flex gap-6 flex-col md:flex-row">
 
         {concerns.map((item, index) => (
           <ConcernCard key={index} {...item} />

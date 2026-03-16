@@ -4,7 +4,7 @@ function FeatureCard({ icon, title, desc }) {
     return (
         <div className="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition">
 
-            <div className="text-pink-600 text-2xl mb-3">
+            <div className="text-superman-red text-2xl mb-3">
                 {icon}
             </div>
 

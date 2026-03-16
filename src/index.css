@@ -2,3 +2,6 @@
 /* * {
   background-color: aqua;
 } */
+@theme {
+  --color-superman-red: #8d204c;
+}

@@ -34,7 +34,7 @@ function SkinScience() {
                     </p>
                 </div>
 
-                <button className="text-pink-600 font-medium hover:underline">
+                <button className="text-superman-red font-medium hover:underline">
                     View all articles →
                 </button>
             </div>
