@@ -1,10 +1,10 @@
 import React from "react";
 import Navbar from "./navBar";
 import Herosection1 from "./Herosection1";
-import CardSection from "./Mian-card";
-import Section1 from "./Section2";
-import SkinScience from "./Articlecard";
-import SkinConcern from "./SkinSection";
+import CardSection from "./CardSection";
+import Section1 from "./Section1";
+import SkinScience from "./SkinSciencs";
+import SkinConcern from "./SkinConcern";
 
 function App() {
   return (

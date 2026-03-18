@@ -1,5 +1,5 @@
 import * as React from "react";
-import FeatureCard from "./Section2Card";
+import FeatureCard from "./FeatureCard";
 import { features } from "./constants/features";
 
 
