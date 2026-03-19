@@ -5,6 +5,7 @@ import CardSection from "./CardSection";
 import Section1 from "./Section1";
 import SkinScience from "./SkinSciencs";
 import SkinConcern from "./SkinConcern";
+import Reviews from "./Reveiw";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Section1 />
       <SkinConcern />
       <SkinScience />
+      <Reviews />
     </>
   );
 }

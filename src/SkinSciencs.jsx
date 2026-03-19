@@ -1,4 +1,4 @@
-import * as React from "react"
+import * as React from "react";
 import ArticleCard from "./Articlecard";
 
 function SkinScience() {
@@ -22,29 +22,38 @@ function SkinScience() {
     ];
 
     return (
-        <section className="px-10 py-16 bg-[#faf7f6]">
+        <section className="bg-[#faf7f6] py-12 sm:py-16 px-4 sm:px-6 lg:px-8">
 
-            <div className="flex justify-between items-center mb-8">
-                <div>
-                    <h2 className="text-3xl font-bold text-gray-900">
-                        Your Skin Deserves Science
-                    </h2>
-                    <p className="text-gray-500 mt-2">
-                        Dive deep into the ingredients and routines that power your glow with our expert-led education series.
-                    </p>
+
+            <div className="max-w-7xl mx-auto">
+
+                <div className="flex flex-col lg:flex-row lg:justify-between lg:items-center gap-4 text-center lg:text-left">
+
+                    <div>
+                        <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900">
+                            Your Skin Deserves Science
+                        </h2>
+
+                        <p className="text-gray-500 mt-2 text-sm sm:text-base max-w-xl mx-auto lg:mx-0">
+                            Dive deep into the ingredients and routines that power your glow with our expert-led education series.
+                        </p>
+                    </div>
+
+                    <button className="text-superman-red font-medium hover:underline self-center lg:self-auto">
+                        View all articles →
+                    </button>
+
                 </div>
 
-                <button className="text-superman-red font-medium hover:underline">
-                    View all articles →
-                </button>
-            </div>
+                <div className="grid gap-6 mt-10 sm:grid-cols-2 lg:grid-cols-3">
 
-            <div className="grid md:grid-cols-3 gap-6">
-                {articles.map((item, index) => (
-                    <ArticleCard key={index} {...item} />
-                ))}
-            </div>
+                    {articles.map((item, index) => (
+                        <ArticleCard key={index} {...item} />
+                    ))}
 
+                </div>
+
+            </div>
         </section>
     );
 }

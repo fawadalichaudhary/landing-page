@@ -2,7 +2,7 @@ import * as React from "react";
 
 function ArticleCard({ category, title, desc }) {
     return (
-        <div className="bg-white p-5 rounded-xl shadow hover:shadow-lg transition flex flex-col gap-3">
+        <div className="bg-white p-6 rounded-2xl shadow-sm hover:shadow-md transition text-left flex flex-col justify-between">
 
             <span className="text-xs text-superman-red uppercase font-semibold">{category}</span>
 

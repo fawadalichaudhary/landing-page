@@ -2,33 +2,38 @@ import * as React from "react";
 import FeatureCard from "./FeatureCard";
 import { features } from "./constants/features";
 
-
-function section1() {
-
-
+function Section1() {
     return (
-        <section className="bg-[#f7f3f2] py-20 px-10">
+        <section className="bg-[#f7f3f2] py-12 sm:py-16 px-4 sm:px-6 lg:px-8">
 
-            <div className="text-center max-w-3xl mx-auto mb-14">
+            {/* Container */}
+            <div className="max-w-7xl mx-auto">
 
-                <h2 className="text-3xl font-bold text-gray-900">
-                    Why BerrySkin is Different
-                </h2>
+                {/* Header */}
+                <div className="text-center max-w-2xl mx-auto">
 
-                <p className="text-gray-500 mt-4">
-                    Experience the power of K-Beauty science infused with potent fruit extracts for results you can actually see.
-                </p>
+                    <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900">
+                        Why BerrySkin is Different
+                    </h2>
+
+                    <p className="text-gray-500 mt-4 text-sm sm:text-base">
+                        Experience the power of K-Beauty science infused with potent fruit extracts for results you can actually see.
+                    </p>
+
+                </div>
+
+                {/* Grid */}
+                <div className="grid gap-6 mt-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+
+                    {features.map((item, index) => (
+                        <FeatureCard key={index} {...item} />
+                    ))}
+
+                </div>
 
             </div>
-
-            <div className="grid md:grid-cols-3 gap-6">
-                {features.map((item, index) => (
-                    <FeatureCard key={index} {...item} />
-                ))}
-            </div>
-
         </section>
     );
 }
 
-export default section1;
+export default Section1;
