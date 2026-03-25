@@ -2,7 +2,7 @@ import * as React from "react";
 import logo from "./assets/Link.svg"
 function Navbar() {
   return (
-    <div className="max-w-7xl mx-auto">
+    <div className="max-w-[100rem] mx-auto">
       <nav className="flex flex-col items-center justify-between px-10 py-5 bg-white shadow-sm md:flex-row flex-wrap">
         <div className="flex justify-around gap-3 flex-wrap mb-2 ">
           <img src={logo} alt="" srcSet="" />
