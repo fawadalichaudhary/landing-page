@@ -19,8 +19,8 @@ function Footer() {
                             We believe in the power of nature meets clinical science.
                         </p>
 
-                        <div className="flex gap-3 mt-5">
-                            <div className="p-2 bg-pink-100 rounded-full cursor-pointer">
+                        <div className="flex gap-3 mt-5 text-superman-red">
+                            <div className="p-2 bg-pink-100 rounded-full cursor-pointer ">
                                 <InstagramOutlined />
                             </div>
                             <div className="p-2 bg-pink-100 rounded-full cursor-pointer">
