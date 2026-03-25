@@ -6,7 +6,7 @@ function ConcernCard({ img, title }) {
 
             <img
                 src={img}
-                className="h-full object-cover group-hover:scale-105 transition"
+                className="h-full w-full object-cover group-hover:scale-105 transition"
             />
 
             <div className="absolute bottom-0 bg-linear-to-t from-black/80 to-transparent text-white text-sm p-3 h-full w-full flex items-end justify-center ">
