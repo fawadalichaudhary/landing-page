@@ -3,7 +3,7 @@ function Card({ step, title, type, desc, img }) {
     return (
         <>
             <div className="rounded-2xl ">
-                <div className="h-[85%] relative shadow-2xl rounded-2xl">
+                <div className="h-[85%] relative shadow-2xl rounded-2xl overflow-x-auto  ">
 
                     <p className="text-sm text-superman-red px-2 font-semibold  absolute bg-white border rounded-xl top-2 left-2 ">
                         STEP {step}

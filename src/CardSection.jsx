@@ -39,9 +39,9 @@ function CardSection() {
   ];
 
   return (
-    <section className="bg-[#8D204C05] py-12 sm:py-16 px-4 sm:px-6 lg:px-8">
+    <section className="bg-[#8D204C05] py-12 sm:py-16 px-4 sm:px-6 lg:px-8 ">
 
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-7xl mx-auto ">
 
 
         <div className="flex flex-col lg:flex-row lg:justify-between lg:items-center gap-4 text-center lg:text-left mb-10">
@@ -63,7 +63,7 @@ function CardSection() {
         </div>
 
 
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4 ">
 
           {products.map((item, index) => (
             <Card key={index} {...item} />
