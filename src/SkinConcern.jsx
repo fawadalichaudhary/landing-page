@@ -27,7 +27,7 @@ function SkinConcern() {
           Shop by Skin Concern
         </h3>
 
-        <div className="flex gap-6 flex-col md:flex-row scrollbar-hide overflow-x-auto">
+        <div className="flex gap-6 flex-col md:flex-row overflow-x-auto">
 
           {concerns.map((item, index) => (
             <ConcernCard key={index} {...item} />

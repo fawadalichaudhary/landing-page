@@ -1,3 +1,4 @@
+import { FacebookOutlined, InstagramOutlined, TwitterOutlined } from "@ant-design/icons";
 import * as React from "react";
 
 function Footer() {
@@ -17,6 +18,18 @@ function Footer() {
                             Fruit-powered Korean formulas designed for the modern glow.
                             We believe in the power of nature meets clinical science.
                         </p>
+
+                        <div className="flex gap-3 mt-5">
+                            <div className="p-2 bg-pink-100 rounded-full cursor-pointer">
+                                <InstagramOutlined />
+                            </div>
+                            <div className="p-2 bg-pink-100 rounded-full cursor-pointer">
+                                <FacebookOutlined />
+                            </div>
+                            <div className="p-2 bg-pink-100 rounded-full cursor-pointer">
+                                <TwitterOutlined />
+                            </div>
+                        </div>
                     </div>
 
                     <div>
