@@ -17,18 +17,6 @@ function Footer() {
                             Fruit-powered Korean formulas designed for the modern glow.
                             We believe in the power of nature meets clinical science.
                         </p>
-
-                        {/* <div className="flex gap-3 mt-5">
-                            <div className="p-2 bg-pink-100 rounded-full cursor-pointer">
-                                <Instagram size={16} />
-                            </div>
-                            <div className="p-2 bg-pink-100 rounded-full cursor-pointer">
-                                <Facebook size={16} />
-                            </div>
-                            <div className="p-2 bg-pink-100 rounded-full cursor-pointer">
-                                <Twitter size={16} />
-                            </div>
-                        </div> */}
                     </div>
 
                     <div>
