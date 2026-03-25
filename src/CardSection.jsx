@@ -3,7 +3,7 @@ import cleanserImg from "./assets/Cleanserproduct.svg";
 import Serum from "./assets/Serumproduct.svg";
 import moist from "./assets/Moisturizerproduct.svg";
 import spf from "./assets/SPFproduct.svg";
-import Card from "./Card";
+import Card from "./card";
 
 function CardSection() {
 
