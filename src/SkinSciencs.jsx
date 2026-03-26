@@ -22,10 +22,10 @@ function SkinScience() {
     ];
 
     return (
-        <section className="bg-[#faf7f6] py-12 sm:py-16 px-4 sm:px-6 lg:px-8">
+        <section className=" py-12 sm:py-16 px-4 sm:px-6 lg:px-8">
 
 
-            <div className="max-w-7xl mx-auto">
+            <div className="bg-[#faf7f6] max-w-7xl mx-auto">
 
                 <div className="flex flex-col lg:flex-row lg:justify-between lg:items-center gap-4 text-center lg:text-left">
 

@@ -10,7 +10,7 @@ import Footer from "./Footer";
 
 function App() {
   return (
-    <>
+    <div>
       <Navbar />
       <Herosection1 />
       <CardSection />
@@ -19,7 +19,7 @@ function App() {
       <SkinScience />
       <Reviews />
       <Footer />
-    </>
+    </div>
   );
 }
 

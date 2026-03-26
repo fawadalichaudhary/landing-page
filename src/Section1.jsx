@@ -4,12 +4,10 @@ import { features } from "./constants/features";
 
 function Section1() {
     return (
-        <section className="bg-[#f7f3f2] py-12 sm:py-16 px-4 sm:px-6 lg:px-8">
+        <section className=" py-12 sm:py-16 px-4 sm:px-6 lg:px-8">
 
-            {/* Container */}
-            <div className="max-w-7xl mx-auto">
 
-                {/* Header */}
+            <div className=" bg-[#f7f3f2] max-w-7xl mx-auto">
                 <div className="text-center max-w-2xl mx-auto">
 
                     <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900">

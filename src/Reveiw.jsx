@@ -17,9 +17,9 @@ const reviews = [
 
 function Reviews() {
     return (
-        <section className="bg-[#f6f1ef] py-16 px-4 sm:px-6 lg:px-8">
+        <section className=" py-16 px-4 sm:px-6 lg:px-8">
 
-            <div className="max-w-7xl mx-auto text-center">
+            <div className="bg-[#f6f1ef] max-w-7xl mx-auto text-center">
 
                 <h2 className="text-2xl sm:text-3xl font-bold text-gray-900">
                     Glow-getters' Reviews

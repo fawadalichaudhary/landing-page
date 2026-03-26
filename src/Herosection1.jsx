@@ -2,13 +2,12 @@ import * as React from "react";
 import hello from "./assets/img.png";
 
 function Hero() {
+
   return (
     <section className="px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
 
-      {/* Container */}
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 items-center gap-10">
 
-        {/* Left Content */}
         <div className="text-center md:text-left">
 
           <p className="text-xs sm:text-sm text-superman-red font-semibold mb-4">
@@ -29,8 +28,6 @@ function Hero() {
           <p className="text-superman-red mt-2 text-sm sm:text-base">
             Brighten. Hydrate. Protect. Repair.
           </p>
-
-          {/* Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 mt-6 sm:mt-8 justify-center md:justify-start">
 
             <button className="bg-superman-red text-white px-6 py-3 rounded-lg w-full sm:w-auto">
@@ -49,7 +46,6 @@ function Hero() {
 
         </div>
 
-        {/* Right Image */}
         <div className="flex justify-center">
           <img
             src={hello}
