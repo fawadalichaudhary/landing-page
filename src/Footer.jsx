@@ -3,9 +3,9 @@ import * as React from "react";
 
 function Footer() {
     return (
-        <footer className=" px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
+        <footer className=" px-4 sm:px-6 lg:px-8 py-12 sm:py-16 bg-[#f7f3f2]">
 
-            <div className="bg-[#f7f3f2] max-w-7xl mx-auto">
+            <div className=" max-w-7xl mx-auto">
 
                 <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-4">
 

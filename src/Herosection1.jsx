@@ -1,7 +1,17 @@
 import * as React from "react";
 import hello from "./assets/img.png";
+import { useState } from "react";
+import { useEffect } from "react";
 
 function Hero() {
+  // const [button, setbutton] = useState()
+
+  const [btnCount, setBtnCount] = useState(0)
+  function btnIncrement() { setBtnCount(btnCount + 1) };
+
+
+
+
 
   return (
     <section className="px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
@@ -30,12 +40,12 @@ function Hero() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 mt-6 sm:mt-8 justify-center md:justify-start">
 
-            <button className="bg-superman-red text-white px-6 py-3 rounded-lg w-full sm:w-auto">
+            <button className="bg-superman-red text-white px-6 py-3 rounded-lg w-full sm:w-auto" onClick={() => { setBtnCount(btnCount - 1) }}>
               Shop The Routine
             </button>
 
-            <button className="border px-6 py-3 rounded-lg w-full sm:w-auto">
-              Take Skin Quiz
+            <button className="border px-6 py-3 rounded-lg w-full sm:w-auto" onClick={btnIncrement}>
+              Take Skin Quiz {btnCount}
             </button>
 
           </div>
